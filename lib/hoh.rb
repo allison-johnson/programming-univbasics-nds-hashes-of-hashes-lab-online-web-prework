@@ -42,6 +42,44 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 
+
+  {
+    {label: "Kingdom",
+	   sub_category: {label: "Phylum",
+	     sub_category: {label: "Class",
+		   sub_category: {label: "Order",
+		     sub_category: {label: "Family",
+			   sub_category: {label: "Genus",
+			     sub_category: {label: "Species"
+				 }#end species
+			   }#end genus
+			 }#end family
+		   }#end order
+		 }#end class
+	   }#end phylum
+	}#end kingdom hash
+	
+	# {label: "Phylum"
+	# }#end phylum hash
+	
+	# {label: "Class"
+	# }#end class hash
+	
+	# {label: "Order"
+	# }#end order hash
+	
+	# {label: "Family"
+	# }#end family hash
+	
+	# {label: "Genus"
+	# }#end genus hash
+	
+	# {label: "Species"
+	# }#end species hash
+	
+  } #end outer hash
+
+
   
 
-end
+end #method
